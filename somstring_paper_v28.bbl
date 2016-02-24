@@ -1,0 +1,125 @@
+\begin{thebibliography}{10}
+
+\bibitem{deMingoLopez2009}
+Luis~Fernando {de Mingo L{\'o}pez}, Nuria Blas, and Miguel D{\'i}az.
+\newblock {\em A String measure with symbol Generation: String self-organizing
+  maps}, chapter A String Measure with Symbols Generation: String
+  Self-Organizing Maps, pages 123--130.
+\newblock Springer Berlin Heidelberg, 2009.
+
+\bibitem{hammer04a_bibuniq_253}
+B.~Hammer, A.~Micheli, A.~Sperduti, and M.~Strickert.
+\newblock A general framework for unsupervised processing of structured data.
+\newblock {\em Neurocomputing}, 57:3--35, March 2004.
+
+\bibitem{honkela98a}
+T.~Honkela, S.~Kaski, T.~Kohonen, and K.~Lagus.
+\newblock Self-organizing maps of very large document collections:
+  Justification for the {WEBSOM} method.
+\newblock In I.~Balderjahn, R.~Mathar, and M.~Schader, editors, {\em
+  Classification, Data Analysis, and Data Highways}, pages 245--252. Springer,
+  Berlin, 1998.
+
+\bibitem{kohonen96l}
+T.~Kohonen.
+\newblock Self-organizing maps of symbol strings.
+\newblock Technical Report A42, Helsinki University of Technology, Laboratory
+  of Computer and Information Science, Espoo, Finland, 1996.
+
+\bibitem{kohonen99f}
+T.~Kohonen.
+\newblock Fast evolutionary learning with batch-type \mbox{self-organizing}
+  maps.
+\newblock {\em Neural Processing Letters}, 9:153--62, 1999.
+
+\bibitem{kohonen82a}
+Teuvo Kohonen.
+\newblock Self-organizing formation of topologically correct feature maps.
+\newblock {\em Biol. Cyb.}, 43(1):59--69, 1982.
+
+\bibitem{kohonen84a}
+Teuvo Kohonen.
+\newblock {\em {Self-Organization and Associative Memory}}, volume~8 of {\em
+  Springer Series in Information Sciences}.
+\newblock Springer, Berlin, Heidelberg, 1984.
+\newblock 3rd ed. 1989.
+
+\bibitem{kohonen95a}
+Teuvo Kohonen.
+\newblock {\em {Self-Organizing Maps}}, volume~30 of {\em Springer Series in
+  Information Sciences}.
+\newblock Springer, Berlin, Heidelberg, 1995.
+\newblock (Second Extended Edition 1997).
+
+\bibitem{kohonen98d}
+Teuvo Kohonen.
+\newblock Self-organization of very large document collections: State of the
+  art.
+\newblock In L.~Niklasson, M.~Bod{\'e}n, and T.~Ziemke, editors, {\em
+  Proceedings of ICANN98, the 8th International Conference on Artificial Neural
+  Networks}, volume~1, pages 65--74. Springer, London, 1998.
+
+\bibitem{kohonen02a_bibuniq_416}
+Teuvo {K.}ohonen and P.~Somervuo.
+\newblock How to make large self-organizing maps for nonvectorial data.
+\newblock {\em Neural Networks}, 15(8-9):945--952, October-November 2002.
+
+\bibitem{kohonen98b}
+Teuvo Kohonen and Panu Somervuo.
+\newblock Self-organizing maps of symbol strings.
+\newblock {\em Neurocomputing}, 21(1):19--30, 1998.
+
+\bibitem{koikkalainen90b}
+P.~Koikkalainen and E.~Oja.
+\newblock Self-organizing hierarchical feature maps.
+\newblock In {\em Proc. IJCNN-90, International Joint Conference on Neural
+  Networks, Washington, DC}, volume~II, pages 279--285, Piscataway, NJ, 1990.
+  IEEE Service Center.
+
+\bibitem{koikkalainen93a}
+Pasi Koikkalainen.
+\newblock Fast organization of the {S}elf-{O}rganizing {M}ap.
+\newblock In Abhay Bulsari and Bj{\"o}rn Sax{\'e}n, editors, {\em Proc. Symp.
+  on Neural Networks in Finland}, pages 51--62, Helsinki, Finland, 1993.
+  Finnish Artificial Intelligence Society.
+
+\bibitem{laaksonen00a}
+Jorma Laaksonen, Markus Koskela, Sami Laakso, and Erkki Oja.
+\newblock Pic{SOM}---content-based image retrieval with self-organizing maps.
+\newblock {\em Pattern Recognition Letters}, 21(13--14):1199--1207, Dec 2000.
+
+\bibitem{lampinen89b}
+J.~Lampinen and E.~Oja.
+\newblock Self-organizing maps for spatial and temporal {AR} models.
+\newblock In Matti Pietik{\"a}inen and Juha R{\"o}ning, editors, {\em Proc. 6
+  SCIA, Scand. Conf. on Image Analysis}, pages 120--127, Helsinki, Finland,
+  1989. Suomen Hahmontunnistustutkimuksen seura r. y.
+
+\bibitem{lampinen90a}
+J.~Lampinen and E.~Oja.
+\newblock Fast computation of {K}ohonen self-organization.
+\newblock In F.~Fogelman-Souli{\'e} and J.~Herault, editors, {\em
+  Neurocomputing: Algorithms, Architectures, and Applications, {NATO ASI}
+  Series F: Computer and Systems Sciences, vol. 68}, pages 65----74. Springer,
+  Berlin, Heidelberg, 1990.
+
+\bibitem{Mora2007}
+A.~Mora, J.~Merelo, C.~Briones, F.~Mor{\~A}{\textexclamdown}n, and J.~Laredo.
+\newblock {\em Clustering and Visualizing HIV Quasispecies Using Kohonen's
+  Self-Organizing Maps}, chapter Clustering and Visualizing HIV Quasispecies
+  Using Kohonen's Self-Organizing Maps, pages 940--947.
+\newblock Springer Berlin Heidelberg, 2007.
+
+\bibitem{oja05a_bibuniq_36}
+M.~Oja, G.~O. Sperber, J.~Blomberg, and Samuel Kaski.
+\newblock Self-organizing map-based discovery and visualization of human
+  endogenous retroviral sequence groups.
+\newblock {\em International Journal of Neural Systems}, 15(3):163--179, June
+  2005.
+
+\bibitem{somervuo04a_bibuniq_173}
+Panu Somervuo.
+\newblock Online algorithm for the self-organizing map of symbol strings.
+\newblock {\em Neural Networks}, 17(8-9):1231--1239, October-November 2004.
+
+\end{thebibliography}
