@@ -1,0 +1,507 @@
+Input lines = 2
+-----------------------------------------------------
+Epochs = 60
+Initializing randomly...
+Training ...
+#############################################################
+# Initial map                                               #
+0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	
+0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	
+0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	
+0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	
+0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	
+0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	
+0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	
+0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	
+0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	
+0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	0000000	
+#############################################################
+#############################################################
+epoch= 0   radius = 7   alpha= 0.5
+0000000	0000000	a0	a0	a0	a0	a0	a0	a0	a0	
+0000000	a0	a0	a0	a0	a0	a0	a0	a0	a0	
+a0	a0	a0	a0	a0	a0	a0	a0	a0	a0	
+a0	a0	a0	a0	a0	a0	a0	a0	a0	a0	
+a0	a0	a0	a0	a0	a0	a0	a0	a0	a0	
+a0	a0	a0	a0	a0	a0	a0	a0	a0	a0	
+a0	a0	a0	a0	a0	a0	a0	a0	a0	a0	
+a0	a0	a0	a0	a0	a0	a0	a0	a0	a0	
+a0	a0	a0	a0	a0	a0	a0	a0	a0	a0	
+a0	a0	a0	a0	a0	a0	a0	a0	a0	a0	
+#############################################################
+#############################################################
+epoch= 1   radius = 6.9   alpha= 0.491666666666667
+c0	c0	coch0	coch0	coch0	a0	a0	a0	a0	a0	
+c0	coch0	coch0	coch0	coch0	a0	a0	a0	a0	a0	
+coch0	coch0	coch0	coch0	coch0	coch0	a0	a0	a0	a0	
+coch0	coch0	coch0	coch0	coch0	coch0	a0	a0	a0	a0	
+coch0	coch0	coch0	coch0	coch0	coch0	coch0	a0	a0	a0	
+coch0	coch0	coch0	coch0	coch0	coch0	coch0	a0	a0	a0	
+coch0	coch0	coch0	coch0	coch0	coch0	coch0	a0	a0	a0	
+coch0	coch0	coch0	coch0	coch0	coch0	coch0	a0	a0	a0	
+coch0	coch0	coch0	coch0	coch0	coch0	coch0	a0	a0	a0	
+coch0	coch0	coch0	coch0	coch0	coch0	a0	a0	a0	a0	
+#############################################################
+#############################################################
+epoch= 2   radius = 6.8   alpha= 0.483333333333333
+c0	c0	coch0	coch0	coch0	a0	a0	a0	a0	a0	
+c0	coch0	coch0	coch0	coch0	alta	alta	alta	alta	alta	
+coch0	coch0	coch0	coch0	al0	al0	alta	alta	alta	alta	
+coch0	coch0	coch0	al0	al0	al0	alta	alta	alta	alta	
+coch0	coch0	coch0	al0	al0	al0	al0	alta	alta	alta	
+coch0	coch0	al0	al0	al0	al0	al0	alta	alta	alta	
+coch0	coch0	al0	al0	al0	al0	al0	alta	alta	alta	
+coch0	al0	al0	al0	al0	al0	al0	alta	alta	alta	
+coch0	coch0	al0	al0	al0	al0	al0	alta	alta	alta	
+coch0	al0	al0	al0	al0	al0	alta	alta	alta	alta	
+#############################################################
+#############################################################
+epoch= 3   radius = 6.7   alpha= 0.475
+coch	coch	cochec	cochec	cochec	coch0	coch0	coch0	coch0	a0	
+coch	cochec	cochec	cochec	cochec	cocta	cocta	cocta	cocta	alta	
+cochec	cochec	cochec	cochec	coc0	coc0	cocta	cocta	cocta	alta	
+cochec	cochec	cochec	coc0	coc0	coc0	cocta	cocta	cocta	alta	
+cochec	cochec	cochec	coc0	coc0	coc0	coc0	cocta	cocta	alta	
+cochec	cochec	coc0	coc0	coc0	coc0	coc0	cocta	alta	alta	
+cochec	cochec	coc0	coc0	coc0	coc0	coc0	cocta	alta	alta	
+cochec	coc0	coc0	coc0	coc0	coc0	coc0	alta	alta	alta	
+cochec	cochec	coc0	coc0	coc0	coc0	coc0	alta	alta	alta	
+cochec	coc0	coc0	coc0	coc0	al0	alta	alta	alta	alta	
+#############################################################
+#############################################################
+epoch= 4   radius = 6.6   alpha= 0.466666666666667
+coch	coch	cochec	cochec	cochec	coch0	coch0	coch0	coch0	a0	
+coch	cochec	cochec	cochec	cochec	cocta	cocta	cocta	cocta	alta	
+cochec	cochec	cochec	cochec	coc0	al0	ata	ata	ata	altami	
+cochec	cochec	cochec	al0	al0	al0	ata	ata	ata	altami	
+cochec	cochec	cochec	al0	al0	al0	al0	ata	ata	altami	
+cochec	cochec	al0	al0	al0	al0	al0	ata	altami	altami	
+cochec	cochec	al0	al0	al0	al0	al0	ata	altami	altami	
+cochec	al0	al0	al0	al0	al0	al0	altami	altami	altami	
+cochec	a	al0	al0	al0	al0	al0	altami	altami	altami	
+cochec	al0	al0	al0	al0	alta	altami	altami	altami	altami	
+#############################################################
+#############################################################
+epoch= 5   radius = 6.5   alpha= 0.458333333333333
+cochec	cochec	cocheci	cocheci	cocheci	cochec	coch0	coch0	coch0	a0	
+cochec	cocheci	cocheci	cocheci	cocheci	cochecta	cocta	cocta	cocta	alta	
+cocheci	cocheci	cocheci	cocheci	coche	coc0	cochta	ata	ata	altami	
+cocheci	cocheci	cocheci	coc0	coc0	coc0	ata	ata	ata	altami	
+cocheci	cocheci	cocheci	coc0	coc0	coc0	coc0	ata	ata	altami	
+cocheci	cocheci	coc0	coc0	coc0	coc0	al0	ata	altami	altami	
+cocheci	cocheci	coc0	coc0	coc0	coc0	coc0	ata	altami	altami	
+cocheci	coc0	coc0	coc0	coc0	coc0	al0	altami	altami	altami	
+cocheci	coch	coc0	coc0	coc0	coc0	al0	altami	altami	altami	
+cocheci	coc0	coc0	coc0	coc0	alta	altami	altami	altami	altami	
+#############################################################
+#############################################################
+epoch= 6   radius = 6.4   alpha= 0.45
+cochec	cochec	cocheci	cocheci	cocheci	cochec	coch0	coch0	coch0	a0	
+cochec	cocheci	cocheci	cocheci	cocheci	cochecta	cocta	cocta	cocta	alta	
+cocheci	cocheci	cocheci	cocheci	coche	coc0	cochta	altaa	altaa	altamir	
+cocheci	cocheci	cocheci	coc0	coc0	al0	altaa	altaa	altaa	altamir	
+cocheci	cocheci	cocheci	coc0	al0	al0	al0	altaa	altaa	altamir	
+cocheci	cocheci	coc0	al0	al0	al0	alta	altaa	altamir	altamir	
+cocheci	cocheci	coc0	al0	al0	al0	al0	altaa	altamir	altamir	
+cocheci	coc0	al0	al0	al0	al0	alta	altamir	altamir	altamir	
+cocheci	coch	coc0	al0	al0	al0	alta	altamir	altamir	altamir	
+cocheci	coc0	al0	al0	al0	altami	altamir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 7   radius = 6.3   alpha= 0.441666666666667
+cocheci	cocheci	cochecit	cochecit	cochecit	cocheci	cochec	cochec	coch0	a0	
+cocheci	cochecit	cochecit	cochecit	cochecit	cochecita	cochecta	cochecta	cocta	alta	
+cochecit	cochecit	cochecit	cochecit	cocheci	coche	cochecta	coctaa	coctaa	altamir	
+cochecit	cochecit	cochecit	coche	coche	coc0	coctaa	coctaa	altaa	altamir	
+cochecit	cochecit	cochecit	coche	coc0	coc0	coc0	coctaa	coctaa	altamir	
+cochecit	cochecit	coche	coc0	coc0	coc0	cocta	coctaa	altamir	altamir	
+cochecit	cochecit	coche	coc0	coc0	coc0	coc0	coctaa	cir	altamir	
+cochecit	coche	coc0	coc0	coc0	coc0	cocta	cir	altamir	altamir	
+cochecit	cochec	coche	coc0	coc0	coc0	cocta	cir	altamir	altamir	
+cochecit	coche	coc0	coc0	coc0	ci	cir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 8   radius = 6.2   alpha= 0.433333333333333
+cocheci	cocheci	cochecit	cochecit	it	i			a0	alt	
+cocheci	cochecit	cochecit	it	it	ita	cta	cta	ata	altami	
+cochecit	cochecit	cochecit	cochecit	i	a	cta	taa	taa	altamir	
+cochecit	cochecit	cochecit	a	a	al0	taa	taa	altama	altamir	
+cochecit	cochecit	cochecit	a	al0	al0	al0	taa	taa	altamir	
+cochecit	cochecit	coche	al0	al0	al0	ata	taa	altamir	altamir	
+cochecit	cochecit	coche	coc0	al0	al0	al0	taa	alir	altamir	
+cochecit	coche	coc0	al0	al0	al0	ata	alir	altamir	altamir	
+cochecit	cochec	coche	coc0	al0	al0	ata	alir	altamir	altamir	
+cochecit	coche	coc0	coc0	coc0	ali	alir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 9   radius = 6.1   alpha= 0.425
+cochecit	cochecit	cochecit	cochecit	cocit	coci	coch	coch	coc0	alt	
+cochecit	cochecit	cochecit	cocit	cocit	cocita	cochta	cochta	ata	altami	
+cochecit	cochecit	cochecit	cochecit	coci	coc	cochta	cochtaa	cochtaa	altamir	
+cochecit	cochecit	cochecit	coc	coc	coc0	cochtaa	cochtaa	cochtama	altamir	
+cochecit	cochecit	cochecit	coc	coc0	coc0	coc0	cochtaa	cochtaa	altamir	
+cochecit	cochecit	cocheci	coc0	coc0	coc0	cocta	cochtaa	altamir	altamir	
+cochecit	cochecit	cocheci	coche	coc0	coc0	coc0	cochtaa	cocir	altamir	
+cochecit	cocheci	coche	coc0	coc0	coc0	cocta	cocir	altamir	altamir	
+cochecit	cocheci	cocheci	coche	coc0	coc0	cocta	alir	altamir	altamir	
+cochecit	cocheci	coche	coche	coche	coi	alir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 10   radius = 6   alpha= 0.416666666666667
+cochecit	cochecit	cochecit	cochecit	at	ai	a	a	al0	altam	
+cochecit	cochecit	cochecit	at	at	ta	ta	ta	altaa	altamir	
+cochecit	cochecit	cochecit	it	ai	al	ta	taa	taa	altamir	
+cochecit	cochecit	cochecit	al	al	al0	taa	taa	htama	altamir	
+cochecit	cochecit	cochecit	coc	al0	al0	al0	taa	taa	altamir	
+cochecit	cochecit	cocheci	coc0	al0	al0	ata	taa	altamir	altamir	
+cochecit	cochecit	cocheci	coche	coc0	al0	al0	taa	air	altamir	
+cochecit	cocheci	coche	coc0	coc0	al0	ata	air	altamir	altamir	
+cochecit	cocheci	cocheci	coche	coc0	coc0	ata	altair	altamir	altamir	
+cochecit	cocheci	coche	coche	coche	coi	alir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 11   radius = 5.9   alpha= 0.408333333333333
+cochecit	cochecit	cochecit	cochecit	at	ai	a	a	al0	altam	
+cochecit	cochecit	cochecit	at	at	ta	ta	ta	altaa	altamir	
+cochecit	cochecit	cochecit	it	ai	al	ta	taa	taa	altamir	
+cochecit	cochecit	cochecit	co	al	al0	taa	taa	htama	altamir	
+cochecit	cochecit	cochecit	coche	co0	al0	al0	taa	taa	altamir	
+cochecit	cochecit	cochecit	coche	co0	al0	ata	taa	altamir	altamir	
+cochecit	cochecit	cochecit	cocheci	coche	co0	al0	taa	air	altamir	
+cochecit	cochecit	cocheci	coche	coche	co0	ata	air	altamir	altamir	
+cochecit	cochecit	cochecit	cocheci	coche	coche	ata	altair	altamir	altamir	
+cochecit	cochecit	cocheci	cocheci	cocheci	cochi	alir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 12   radius = 5.8   alpha= 0.4
+cochecit	cochecit	cochecit	cochecit	at	ai	a	a	al0	altam	
+cochecit	cochecit	cochecit	at	at	ta	ta	ta	altaa	altamir	
+cochecit	cochecit	cochecit	it	ai	al	ta	taa	taa	altamir	
+cochecit	cochecit	cochecit	co	al	al0	taa	altaa	atama	altamir	
+cochecit	cochecit	cochecit	coche	co0	al0	alta	altaa	altaa	altamir	
+cochecit	cochecit	cochecit	coche	co0	alta	altaa	altaa	altamir	altamir	
+cochecit	cochecit	cochecit	cocheci	coche	al0	alta	altaa	altir	altamir	
+cochecit	cochecit	cocheci	coche		al0	altaa	altir	altamir	altamir	
+cochecit	cochecit	cochecit	cocheci			altaa	altamir	altamir	altamir	
+cochecit	cochecit	cocheci	cocheci	ci	i	altair	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 13   radius = 5.7   alpha= 0.391666666666667
+cochecit	cochecit	cochecit	cochecit	coct	ai	a	a	al0	altam	
+cochecit	cochecit	cochecit	coct	coct	cochta	ta	ta	altaa	altamir	
+cochecit	cochecit	cochecit	cocit	coci	co	cochta	taa	taa	altamir	
+cochecit	cochecit	cochecit	coche	co	co0	cochtaa	altaa	atama	altamir	
+cochecit	cochecit	cochecit	cocheci	coch	co0	cota	coctaa	altaa	altamir	
+cochecit	cochecit	cochecit	cocheci	coch	cota	coctaa	coctaa	altamir	altamir	
+cochecit	cochecit	cochecit	cochecit	cocheci	co0	cota	coctaa	altir	altamir	
+cochecit	cochecit	cochecit	cocheci	coch	co0	coctaa	coir	altamir	altamir	
+cochecit	cochecit	cochecit	cochecit	coch	coch	coctaa	ir	altamir	altamir	
+cochecit	cochecit	cochecit	cochecit	cochi	coci	cir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 14   radius = 5.6   alpha= 0.383333333333333
+cochecit	cochecit	cochecit	cochecit	coct	ai	alta	alta	alta	altami	
+cochecit	cochecit	cochecit	coct	coct	ta	alta	alta	altama	altamir	
+cochecit	cochecit	cochecit	cocit	coci	al	ta	altaa	altaa	altamir	
+cochecit	cochecit	cochecit	coche	al	al0	htaa	altama	altama	altamir	
+cochecit	cochecit	cochecit	cocheci	a	al0	ata	taa	altama	altamir	
+cochecit	cochecit	cochecit	cocheci	a	ata	taa	taa	altamir	altamir	
+cochecit	cochecit	cochecit	cochecit	ci	al0	ata	taa	altair	altamir	
+cochecit	cochecit	cochecit	cocheci	a	al0	taa	air	altamir	altamir	
+cochecit	cochecit	cochecit	cochecit	coch	a	taa	alir	altamir	altamir	
+cochecit	cochecit	cochecit	cochecit	cochi	ai	alir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 15   radius = 5.5   alpha= 0.375
+cochecit	cochecit	cochecit	cochecit	coct	ai	alta	alta	alta	altami	
+cochecit	cochecit	cochecit	coct	coct	ta	alta	alta	altama	altamir	
+cochecit	cochecit	cochecit	cocit	coci	al	ta	altaa	altaa	altamir	
+cochecit	cochecit	cochecit	cocheci	al	al0	htaa	altama	altama	altamir	
+cochecit	cochecit	cochecit	cochecit	coc	co0	ata	taa	altama	altamir	
+cochecit	cochecit	cochecit	cochecit	coc	cocta	taa	taa	altamir	altamir	
+cochecit	cochecit	cochecit	cochecit	cochi	co0	cocta	taa	altair	altamir	
+cochecit	cochecit	cochecit	cochecit	coc	co0	taa	air	altamir	altamir	
+cochecit	cochecit	cochecit	cochecit	cochec	coc	cochtaa	alir	altamir	altamir	
+cochecit	cochecit	cochecit	cochecit	cocheci	coi	alir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 16   radius = 5.4   alpha= 0.366666666666667
+cochecit	cochecit	cochecit	cochecit	coct	ai	alta	alta	alta	altami	
+cochecit	cochecit	cochecit	coct	coct	ta	alta	alta	altama	altamir	
+cochecit	cochecit	cochecit	cocit	coci	al	ta	altaa	altama	altamir	
+cochecit	cochecit	cochecit	cocheci	al	al0	ataa	altamia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	coc	al0	altaa	altaa	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	a	ta	altaa	altaa	altamir	altamir	
+cochecit	cochecit	cochecit	cochecit	i	al0	ta	altaa	altamir	altamir	
+cochecit	cochecit	cochecit	cochecit	a	al0	altaa	altir	altamir	altamir	
+cochecit	cochecit	cochecit	cochecit	c	a	htaa	altir	altamir	altamir	
+cochecit	cochecit	cochecit	cochecit	ci	ai	altir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 17   radius = 5.3   alpha= 0.358333333333333
+cochecit	cochecit	cochecit	cochecit	cochet	ai	alta	alta	alta	altami	
+cochecit	cochecit	cochecit	cochet	cochet	ta	alta	alta	altama	altamir	
+cochecit	cochecit	cochecit	cochit	cochei	co	ta	altaa	altama	altamir	
+cochecit	cochecit	cochecit	cochecit	co	al0	ataa	altamia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	coche	co0	altaa	altaa	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	coc	ta	altaa	altaa	altamir	altamir	
+cochecit	cochecit	cochecit	cochecit	coci	co0	ta	altaa	altamir	altamir	
+cochecit	cochecit	cochecit	cochecit	coc	al0	altaa	altir	altamir	altamir	
+cochecit	cochecit	cochecit	cochecit	coch	a	htaa	altir	altamir	altamir	
+cochecit	cochecit	cochecit	cochecit	ci	ai	altir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 18   radius = 5.2   alpha= 0.35
+cochecit	cochecit	cochecit	cochecit	cochet	ai	alta	alta	alta	altami	
+cochecit	cochecit	cochecit	cochet	cochet	ta	alta	alta	altama	altamir	
+cochecit	cochecit	cochecit	cochit	cochei	co	ta	altaa	altama	altamir	
+cochecit	cochecit	cochecit	cochecit	co	al0	ataa	altamia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	coche	al0	altama	altama	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	a	alta	altama	altama	altamir	altamir	
+cochecit	cochecit	cochecit	cit	ai	al0	alta	altama	altamir	altamir	
+cochecit	cochecit	cochecit	cit	a	alt	altama	altair	altamir	altamir	
+cochecit	cochecit	cochecit	cit		alt	ataa	altair	altamir	altamir	
+cochecit	cochecit	cit	cit	ali	alti	altair	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 19   radius = 5.1   alpha= 0.341666666666667
+cochecit	cochecit	cochecit	cochecit	cochect	coi	cota	cota	alta	altami	
+cochecit	cochecit	cochecit	cochect	cochect	cocta	cota	alta	altama	altamir	
+cochecit	cochecit	cochecit	cocheit	cocheci	coch	cocta	altaa	altama	altamir	
+cochecit	cochecit	cochecit	cochecit	coch	co0	ataa	altamia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	cochec	co0	altama	altama	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	co	alta	altama	altama	altamir	altamir	
+cochecit	cochecit	cochecit	cit	ai	al0	alta	altama	altamir	altamir	
+cochecit	cochecit	cochecit	cit	a	alt	altama	altair	altamir	altamir	
+cochecit	cochecit	cochecit	cit		alt	ataa	altair	altamir	altamir	
+cochecit	cochecit	cit	cit	ali	alti	altair	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 20   radius = 5   alpha= 0.333333333333333
+cochecit	cochecit	cochecit	cochecit	cochect	coi	cota	cota	alta	altami	
+cochecit	cochecit	cochecit	cochect	cochect	cocta	cota	alta	altama	altamir	
+cochecit	cochecit	cochecit	cocheit	cocheci	coch	cocta	altaa	altama	altamir	
+cochecit	cochecit	cochecit	cochecit	coch	co0	ataa	altamia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	cochec	a0	altamia	altamia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	a	altam	altamia	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cit	alti	alt	altam	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	at	alt	altam	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cochecit	at	alt	altam	altaa	altamir	altamir	altamir	
+cochecit	cochecit	at	at	altai	altai	altamir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 21   radius = 4.9   alpha= 0.325
+cochecit	cochecit	cochecit	cochecit	cochecit	cochi	cochta	cochta	alta	altami	
+cochecit	cochecit	cochecit	cochecit	cochecit	cocheta	cochta	cota	altama	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	cochec	cocheta	cotaa	altama	altamir	
+cochecit	cochecit	cochecit	cochecit	cochec	coch	coctaa	altamia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	cocheci	co0	ia	altamia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	co	altam	altamia	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cit	alti	alt	altam	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	at	alt	altam	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cochecit	at	alt	altam	altaa	altamir	altamir	altamir	
+cochecit	cochecit	at	at	altai	altai	altamir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 22   radius = 4.8   alpha= 0.316666666666667
+cochecit	cochecit	cochecit	cochecit	cochecit	cochi	cochta	cochta	alta	altami	
+cochecit	cochecit	cochecit	cochecit	cochecit	cocheta	cochta	cota	altama	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	cochec	cocheta	cotaa	altama	altamir	
+cochecit	cochecit	cochecit	cochecit	cochec	coch	coctaa	altamia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	cocheci	co0	ia	altamia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	co	altami	altamia	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cit	alti	altam	altami	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	at	altam	altami	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cochecit	at	altam	altami	altama	altamir	altamir	altamir	
+cochecit	cochecit	at	at	altami	altami	altamir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 23   radius = 4.7   alpha= 0.308333333333333
+cochecit	cochecit	cochecit	cochecit	cochecit	cochi	cochta	cochta	alta	altami	
+cochecit	cochecit	cochecit	cochecit	cochecit	cocheta	cochta	cota	altama	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	cochec	cocheta	cotaa	altama	altamir	
+cochecit	cochecit	cochecit	cochecit	cochec	coch	coctaa	altamia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	cocheci	co0	ia	altamia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	co	altami	altamia	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cocit	i	altam	altami	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cot	cotam	altami	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cochecit	cot	cotam	altami	altama	altamir	altamir	altamir	
+cochecit	cochecit	cot	cot	mi	altami	altamir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 24   radius = 4.6   alpha= 0.3
+cochecit	cochecit	cochecit	cochecit	cochecit	cochi	cochta	cochta	alta	altami	
+cochecit	cochecit	cochecit	cochecit	cochecit	cocheta	cochta	cota	altama	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	cochec	cocheta	cotaa	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	cochec	coch	ctaa	altamia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	cocheci	co0	alia	altamia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	co	altamir	altamia	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cocit	i	altami	altamir	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cot	cotam	altamir	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cochecit	cot	cotam	altamir	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cot	cot	mi	altamir	altamir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 25   radius = 4.5   alpha= 0.291666666666667
+cochecit	cochecit	cochecit	cochecit	cochecit	cochei	cochta	cochta	alta	altami	
+cochecit	cochecit	cochecit	cochecit	cochecit	cocheta	cochta	cota	altama	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	cocheci	cocheta	cotaa	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	cocheci	coch	ctaa	altamia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	cocheci	co0	alia	altamia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	co	altamir	altamia	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cocit	i	altami	altamir	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cot	cotam	altamir	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cochecit	cot	cotam	altamir	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cot	cot	mi	altamir	altamir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 26   radius = 4.4   alpha= 0.283333333333333
+cochecit	cochecit	cochecit	cochecit	cochecit	cochei	cochta	hta	altam	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	heta	hta	ta	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	eci	heta	taa	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	cocheci	h	ataa	altamia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	cocheci	a0	altia	altamia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	co	altamir	altamia	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cocit	i	altamir	altamir	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cot	cotam	altamir	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cochecit	cot	cotam	altamir	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cot	cot	mi	altamir	altamir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 27   radius = 4.3   alpha= 0.275
+cochecit	cochecit	cochecit	cochecit	cochecit	cochei	cochta	hta	altam	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	heta	hta	ta	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	eci	heta	taa	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	cocheci	h	ataa	altamia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	cocheci	a0	altia	altamia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	co	altamir	altamia	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cochit	coi	altamir	altamir	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cocht	cochtam	altamir	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cochecit	cocht	cochtam	mir	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cocht	cocht	ci	altamir	altamir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 28   radius = 4.2   alpha= 0.266666666666667
+cochecit	cochecit	cochecit	cochecit	cochecit	cochei	cochta	hta	altam	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	ta	ata	alta	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	i	ta	ataa	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	heci	a	altaa	altamia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	heci	al	altaia	altamia	altamia	altamir	
+cochecit	cochecit	cochecit	ecit	a	altamir	altamia	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cochit	i	altamir	altamir	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cocht	chtam	altamir	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cochecit	cocht	cochtam	amir	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cocht	cocht	ci	altamir	altamir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 29   radius = 4.1   alpha= 0.258333333333333
+cochecit	cochecit	cochecit	cochecit	cochecit	cocheci	cocheta	cohta	ctam	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	cota	cota	cta	mia	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	coi	cota	cotaa	mia	altamir	
+cochecit	cochecit	cochecit	cochecit	checi	co	ctaa	mia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	checi	c	aia	mia	altamia	altamir	
+cochecit	cochecit	cochecit	cecit	co	mir	mia	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cochit	i	altamir	altamir	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cocht	chtam	altamir	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cochecit	cocht	cochtam	amir	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cocht	cocht	ci	altamir	altamir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 30   radius = 4   alpha= 0.25
+cochecit	cochecit	cochecit	cochecit	cochecit	cocheci	cocheta	cohta	ctam	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	cota	cota	ata	amia	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	coi	cota	taa	amia	altamir	
+cochecit	cochecit	cochecit	cochecit	checi	co	ataa	amia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	checi	c	alia	amia	altamia	altamir	
+cochecit	cochecit	cochecit	cecit	co	amir	amia	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cochit	i	altamir	altamir	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cocht	chtam	altamir	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cochecit	cocht	cochtam	amir	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cocht	cocht	ci	altamir	altamir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 31   radius = 3.9   alpha= 0.241666666666667
+cochecit	cochecit	cochecit	cochecit	cochecit	cocheci	cocheta	cohta	ctam	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	cota	cota	ata	amia	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	coi	cota	taa	amia	altamir	
+cochecit	cochecit	cochecit	cochecit	coheci	co	ataa	amia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	coheci	coc	alia	amia	altamia	altamir	
+cochecit	cochecit	cochecit	coecit	coch	cir	amia	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cocheit	coi	amir	altamir	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cochet	cochtam	amir	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cochecit	cochet	cochetam	cir	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cochet	cochet	coci	altamir	altamir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 32   radius = 3.8   alpha= 0.233333333333333
+cochecit	cochecit	cochecit	cochecit	cochecit	cocheci	cocheta	cohta	ctam	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	cota	cota	ata	amia	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	coi	cota	taa	amia	altamir	
+cochecit	cochecit	cochecit	cochecit	coheci	co	altaa	almia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	coheci		altia	almia	altamia	altamir	
+cochecit	cochecit	cochecit	coecit	h	air	almia	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cocheit	i	almir	altamir	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cochet	chtam	almir	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cochecit	cochet	chetam	air	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cochet	cochet	ci	altamir	altamir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 33   radius = 3.7   alpha= 0.225
+cochecit	cochecit	cochecit	cochecit	cochecit	cocheci	cocheta	cohta	ctam	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	cochta	cota	ata	amia	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	coci	cochta	taa	amia	altamir	
+cochecit	cochecit	cochecit	cochecit	cocheci	coch	altaa	almia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	cocheci	co	ia	almia	altamia	altamir	
+cochecit	cochecit	cochecit	cocecit	coh	cir	almia	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cocheit	coi	ir	altamir	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cochect	chtam	almir	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cochecit	cochet	chetam	air	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cochet	cochet	ci	altamir	altamir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 34   radius = 3.6   alpha= 0.216666666666667
+cochecit	cochecit	cochecit	cochecit	cochecit	cocheci	cocheta	cohta	ctam	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	cochta	cota	ata	amia	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	coci	cochta	taa	amia	altamir	
+cochecit	cochecit	cochecit	cochecit	cocheci	coch	altaa	almia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	cocheci	co	ia	almia	altamia	altamir	
+cochecit	cochecit	cochecit	cocecit	coh	cir	almia	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cocheit	coi	ir	altamir	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cochect	chtam	altmir	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cochecit	cochet	chetam	air	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cochet	cochet	ci	altamir	altamir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 35   radius = 3.5   alpha= 0.208333333333333
+cochecit	cochecit	cochecit	cochecit	cochecit	cocheci	cocheta	cohta	ctam	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	cochta	cota	ata	amia	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	coci	cochta	taa	amia	altamir	
+cochecit	cochecit	cochecit	cochecit	cocheci	coch	altaa	almia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	cocheci	co	ia	almia	altamia	altamir	
+cochecit	cochecit	cochecit	cocecit	coch	cir	almia	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cocheit	coi	ir	altamir	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cochect	chtam	altmir	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cochecit	cochet	chetam	air	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cochet	cochet	ci	altamir	altamir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 36   radius = 3.4   alpha= 0.2
+cochecit	cochecit	cochecit	cochecit	cochecit	cocheci	cocheta	cohta	ctam	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	cochta	cota	ata	amia	altamir	
+cochecit	cochecit	cochecit	cochecit	cochecit	coci	cochta	taa	amia	altamir	
+cochecit	cochecit	cochecit	cochecit	cocheci	coch	altama	altmia	altamia	altamir	
+cochecit	cochecit	cochecit	cochecit	cocheci	co	aia	altmia	altamia	altamir	
+cochecit	cochecit	cochecit	cocecit	coch	ir	altmia	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cocheit	coi	air	altamir	altamia	altamir	altamir	
+cochecit	cochecit	cochecit	cochect	chtam	altmir	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cochecit	cochet	chetam	air	altamia	altamir	altamir	altamir	
+cochecit	cochecit	cochet	cochet	ci	altamir	altamir	altamir	altamir	altamir	
+#############################################################
+#############################################################
+epoch= 37   radius = 3.3   alpha= 0.191666666666667
+Map not modified at 37 epoch
+Calibrating...
+
+Writing map file ...
+Writing umatrix file ...
+Writing ps file ...

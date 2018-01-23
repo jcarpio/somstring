@@ -1,0 +1,22 @@
+=head2 Thu Oct 25 12:35:50 2012: C<Module> L<AI::NeuralNet::SOMString|AI::NeuralNet::SOMString>
+
+=over 4
+
+=item *
+
+C<installed into: /home/jcarpio/som_string/share/perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.06>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

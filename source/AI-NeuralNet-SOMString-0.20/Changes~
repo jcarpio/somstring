@@ -1,0 +1,44 @@
+Revision history for Perl extension AI::NeuralNet::SOMString.
+
+0.01  Tue Aug 22 19:00:29 2000
+	- original version; created by h2xs 1.20 with options
+		-X -n AI::NeuralNet::SOM
+
+0.02  Wed Oct 04 22:22:10 2000
+	- fixed bugs in "load" method and added new method "umatrix", by Voischev Alexander
+
+0.03 Jue mar  6 16:48:37 2008
+        - Modified to acept string data input directly, by Jose Carpio
+
+0.15 lun abr 28 11:49:05 CEST 2008
+        - Modified to use String::Diff package, by Jose Carpio
+
+0.16 lun abr 28 12:53:56 CEST 2008
+        - Algoritm created to change String::Diff output to obtain a result like this
+          aaa bbb -> original result <del>aaa</del><ins>bbb</ins>
+                  -> new result <del>a</del><del>a</del><del>a</del><ins>b</ins><ins>b</ins><ins>b</ins>  
+          with this new result is posible to approximate a new string step by step easily.
+          For example: to obtain a new string with only a distance of two only need to achieve first two 
+                       actions (ins or del).
+                       From "aaa" to "bbb" doin to steps result = "a"
+
+         - new_string_diff modified to operate with this new diff format
+
+0.17 Solved the problem with umatrix. Umatrix algoritm works in the same way, but I changed the umat.c
+     program from som_pak to deal with a umatrix file with inter values
+
+0.18 Methods distance_diff and slow_diff has been modified to take self object as first argument. To use
+     these methods use $som-> distance_diff and $som-> slow_diff 
+
+0.19 - Used LevenshteinXS to calculate distances between strings, except in new_string method.
+     - Modified the method "best_in_data_set" to return the best and the set of input items that have the 
+     same distance of the best.
+
+0.20 - Included Tree::Ternary_XS to find elements faster in method "best_in_data_set"
+
+
+TODO
+- Modify winner function to select one of the best models randomly
+- Modify alpha function to avoid to raise down a certain value
+- Show the labels of all the input strings that match with a node model.
+- Use LevensteinXS to make faster distance. 

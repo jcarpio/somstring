@@ -1,0 +1,12 @@
+
+(gedit:6502): GnomeUI-WARNING **: While connecting to session manager:
+Authentication Rejected, reason : None of the authentication protocols specified are supported and host-based authentication failed.
+
+(gedit:6526): GnomeUI-WARNING **: While connecting to session manager:
+Authentication Rejected, reason : None of the authentication protocols specified are supported and host-based authentication failed.
+
+(gedit:6192): GnomeUI-WARNING **: While connecting to session manager:
+Authentication Rejected, reason : None of the authentication protocols specified are supported and host-based authentication failed.
+
+(gedit:6195): GnomeUI-WARNING **: While connecting to session manager:
+Authentication Rejected, reason : None of the authentication protocols specified are supported and host-based authentication failed.

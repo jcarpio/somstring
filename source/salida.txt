@@ -1,0 +1,585 @@
+Input lines = 10
+-----------------------------------------------------
+Epochs = 60
+Initializing randomly...
+Training ...
+#############################################################
+# Initial map                                               #
+estudio	estudio	bedida	estudio	hablado	estudiante	hablar	comida	bedida	comida	
+estudio	beber	beber	estudiante	comercio	estudiante	estudiar	bedida	comer	comer	
+estudio	comercio	bedida	hablar	hablado	comer	bedida	hablar	estudio	hablado	
+comercio	comercio	bedida	comer	comer	beber	estudio	bedida	beber	comer	
+estudiar	estudiante	beber	estudiante	hablado	comida	estudiante	comida	hablado	beber	
+hablado	estudiante	hablado	estudiar	beber	comida	comida	beber	comer	hablar	
+beber	hablado	comercio	hablado	beber	beber	comida	hablado	comercio	comer	
+comercio	comida	hablado	hablar	comer	beber	comida	estudio	comer	hablado	
+estudiante	hablado	hablar	bedida	beber	comida	estudiar	comer	beber	comida	
+estudio	hablar	comercio	comer	estudiante	comer	estudiante	beber	bedida	comida	
+#############################################################
+#############################################################
+epoch= 0   radius = 7   alpha= 0.5
+estudio	estudio	bedida	o	o	ciante	comiablar	comida	ida	comida	
+estudio	beber	c	ciante	comio	ciante	iar	ida	com	com	
+estudio	comio	ida	comiablar	o	com	ida	comiablar	o	o	
+comio	comio	ida	com	com	c	o	ida	c	com	
+iar	ciante	c	ciante	o	comida	ciante	comida	o	c	
+o	ciante	o	iar	c	comida	comida	c	com	comiablar	
+c	o	comio	o	c	c	comida	o	comio	com	
+comio	comida	o	comiablar	com	c	comida	o	com	o	
+ciante	o	comiablar	ida	c	comida	iar	com	c	comida	
+o	comiablar	comio	com	ciante	com	ciante	c	ida	comida	
+#############################################################
+#############################################################
+epoch= 1   radius = 6.9   alpha= 0.491666666666667
+beudio	beudio	bedida	be	be	bediante	beiablar	ida	bida	comida	
+beudio	be	be	bediante	bio	bediante	beiar	bida	b	com	
+beudio	bio	bida	beiablar	be	b	bida	beiablar	be	o	
+bio	bio	bida	b	b	be	be	bida	c	com	
+beiar	bediante	be	bediante	be	ida	bediante	ida	o	c	
+be	bediante	be	beiar	be	ida	ida	c	com	comiablar	
+be	be	bio	be	be	be	ida	o	comio	com	
+bio	ida	be	beiablar	b	c	comida	o	com	o	
+ciante	o	comiablar	ida	c	comida	iar	com	c	comida	
+o	comiablar	comio	com	ciante	com	ciante	c	ida	comida	
+#############################################################
+#############################################################
+epoch= 2   radius = 6.8   alpha= 0.483333333333333
+estudi	estudi	estudida	estue	estue	esdiante	estudialar	estda	estda	comida	
+estudi	estue	estue	esdiante	estuio	esdiante	estuiar	estda	estu	com	
+estudi	estuio	estda	estudialar	estue	estu	estda	estudialar	estue	estu	
+estuio	estuio	estda	estu	estu	estue	estue	estda	estu	est	
+estuiar	esdiante	estue	esdiante	estue	estda	esdiante	estda	estu	estu	
+estue	esdiante	estue	estuiar	estue	estda	estda	estu	est	estuiablar	
+estue	estue	estuio	estue	estue	estue	estda	estu	estio	est	
+estuio	estda	estue	estudialar	estu	estu	esda	estu	est	o	
+esiante	estu	estuiablar	estda	estu	esda	estuiar	est	estu	comida	
+estu	estuiablar	estio	est	esiante	est	esiante	estu	ida	comida	
+#############################################################
+#############################################################
+epoch= 3   radius = 6.7   alpha= 0.475
+estudi	estudi	estudia	estud	estud	estudinte	estudiar	estda	estda	comida	
+estudi	estud	estud	estudinte	estuio	estudinte	estudir	estda	estu	com	
+estudi	estuio	estud	estudiar	estud	estud	estud	estudiar	estue	estu	
+estuio	estuio	estud	estud	estud	estud	estud	estud	estu	est	
+estudir	estudinte	estud	estudinte	estud	estud	estudinte	estud	estud	estu	
+estud	estudinte	estud	estudir	estud	estud	estud	estud	estud	estuiablar	
+estud	estud	estuio	estud	estud	estud	estud	estud	estuio	est	
+estuio	estud	estud	estudiar	estud	estud	estuda	estud	estud	o	
+est	estud	estudilar	estud	estud	estuda	estudir	estud	estud	comida	
+estud	estudilar	estuio	estud	est	estud	est	estud	ida	comida	
+#############################################################
+#############################################################
+epoch= 4   radius = 6.6   alpha= 0.466666666666667
+estudi	estudi	estudia	estud	estud	estudinte	estudiar	ha	ha	a	
+estudi	estud	estud	estudinte	estuio	habdinte	hadir	ha	h	habom	
+estudi	estuio	estud	estudiar	estud	hd	hd	ar	h	h	
+estuio	estuio	estud	estud	hd	hd	hd	hd	h	ha	
+estudir	estudinte	estud	estudinte	hd	hd	habdinte	hd	hd	h	
+estud	estudinte	estud	hadir	hd	hd	hd	hd	hd	iablar	
+estud	estud	estuio	hd	hd	hd	hd	hd	o	ha	
+estuio	estud	estud	ar	hd	hd	a	hd	hd	habo	
+est	estud	estudilar	hd	hd	a	hadir	hd	hd	a	
+estud	estudilar	estuio	hd	ha	hd	ha	hd	hab	a	
+#############################################################
+#############################################################
+epoch= 5   radius = 6.5   alpha= 0.458333333333333
+estudi	estudi	estudia	estud	estud	comedinte	comediar	com	com	com	
+estudi	estud	estud	comedinte	cometuio	te	cr	com	com	com	
+estudi	estuio	estud	comediar	comeud	com	com	comr	com	com	
+estuio	estuio	comeud	comeud	com	com	com	com	com	com	
+estudir	estudinte	comeud	comedinte	com	com	te	com	com	com	
+estud	estudinte	comeud	cr	com	com	com	com	com	cr	
+estud	estud	cometuio	com	com	com	com	com	como	com	
+estuio	estud	comeud	comr	com	com	com	com	com	coo	
+est	estud	comedilar	com	com	com	cr	com	com	com	
+estud	estudilar	cometuio	com	com	com	com	com	co	com	
+#############################################################
+#############################################################
+epoch= 6   radius = 6.4   alpha= 0.45
+estudi	bedi	bedia	bed	bed	bedinte	bediar	b	b	b	
+bedi	bed	bed	bedinte	beuio	be	br	b	b	b	
+bedi	beio	bed	bediar	beud	b	b	r	b	b	
+beio	beio	beud	beud	b	b	b	b	b	b	
+bedir	bedinte	beud	bedinte	b	b	be	b	b	b	
+bed	bedinte	beud	br	b	b	b	b	b	br	
+bed	bed	beuio	b	b	b	b	b		b	
+beio	bed	beud	r	b	b	b	b	b	b	
+est	bed	bedilar	b	b	b	br	b	b	b	
+estud	bedilar	beuio	b	b	b	b	b	b	b	
+#############################################################
+#############################################################
+epoch= 7   radius = 6.3   alpha= 0.441666666666667
+estudi	bedi	comedia	coed	coed	comedinte	bediar	b	b	b	
+coedi	coed	coed	comedinte	o	ce	cr	b	b	b	
+coedi	o	coed	coediar	coeud	co	co	cor	co	b	
+o	o	coeud	coeud	co	co	co	co	co	b	
+coedir	comedinte	coeud	comedinte	co	co	ce	co	co	co	
+coed	comedinte	coeud	cr	co	co	co	co	co	cr	
+coed	coed	o	co	co	co	co	co	co	co	
+o	coed	coeud	cor	co	co	co	co	co	co	
+comest	coed	comedilar	co	co	co	cr	co	co	co	
+cometud	comedilar	o	co	co	co	co	co	co	co	
+#############################################################
+#############################################################
+epoch= 8   radius = 6.2   alpha= 0.433333333333333
+estudia	estdi	edia	esd	esd	estdinte	esdiar	b	b	b	
+esdi	esd	esd	estdinte	est	est	cr	b	b	b	
+esdi	est	esd	ediar	esud	es	co	cor	co	b	
+est	est	esud	esud	es	es	co	co	co	b	
+esdir	estdinte	esud	estdinte	es	es	ce	co	co	co	
+esd	estdinte	esud	esr	co	co	co	co	co	cr	
+esd	esd	est	es	co	co	co	co	co	co	
+est	coed	coeud	cor	co	co	co	co	co	co	
+comest	coed	comedilar	co	co	co	cr	co	co	co	
+cometud	comedilar	o	co	co	co	co	co	co	co	
+#############################################################
+#############################################################
+epoch= 9   radius = 6.1   alpha= 0.425
+estudia	estdi	edia	h	h	te	iar	hab	hab	hab	
+esdi	esd	h	te	h	h	har	hab	hab	hab	
+esdi	est	esd	ar		h	h	hr	h	hab	
+est	est	esud		h	h	h	h	h	hab	
+esdir	estdinte	esud	te	h	h	h	h	h	h	
+esd	estdinte	esud	hr	h	h	h	h	h	har	
+esd	esd	est	es	co	h	h	h	h	h	
+est	coed	coeud	cor	co	h	h	h	h	h	
+comest	coed	comedilar	co	co	co	cr	co	h	h	
+cometud	comedilar	o	co	co	co	co	co	co	co	
+#############################################################
+#############################################################
+epoch= 10   radius = 6   alpha= 0.416666666666667
+estudia	estdi	edia	h	h	te	iar	hab	hab	hab	
+esdi	esd	h	te	h	h	har	hab	hab	hab	
+esdi	est	esd	ar		h	h	hr	h	hab	
+est	est	esud		h	co	co	co	co	coab	
+esdir	estdinte	esud	te	h	co	co	co	co	co	
+esd	estdinte	esud	hr	co	co	co	co	co	coar	
+esd	esd	est	es	comi	co	co	co	co	co	
+est	coed	coeud	com	comi	co	co	co	co	co	
+comest	coed	comedilar	comi	comi	comi	co	comi	co	co	
+cometud	comedilar	com	comi	comi	comi	comi	comi	comi	comi	
+#############################################################
+#############################################################
+epoch= 11   radius = 5.9   alpha= 0.408333333333333
+betudia	betdi	bedia	be	be	be	beiar	be	hab	hab	
+bedi	bed	be	be	be	be	bear	be	hab	hab	
+bedi	be	bed	bear	be	be	be	b	h	hab	
+be	be	beud	be	be	b	b	co	co	coab	
+bedir	bedinte	beud	be	be	b	b	co	co	co	
+bed	bedinte	beud	b	b	b	co	co	co	coar	
+bed	bed	be	be	i	co	co	co	co	co	
+est	coed	coeud	com	comi	co	co	co	co	co	
+comest	coed	comedilar	comi	comi	comi	co	comi	co	co	
+cometud	comedilar	com	comi	comi	comi	comi	comi	comi	comi	
+#############################################################
+#############################################################
+epoch= 12   radius = 5.8   alpha= 0.4
+estudia	estudi	estdia	este	este	este	beiar	be	hab	hab	
+estdi	estud	este	este	este	este	bear	be	hab	hab	
+estdi	este	estud	estuar	este	este	este	b	h	hab	
+este	este	estud	este	este	est	est	co	co	coab	
+estudir	esdinte	estud	este	este	est	est	co	co	co	
+estud	esdinte	estud	est	est	est	est	co	co	coar	
+estud	estud	este	este	estui	est	est	co	co	co	
+estudi	estd	estud	es	esi	est	co	co	co	co	
+estu	estd	esdilar	esi	esi	esi	co	comi	co	co	
+estud	esdilar	es	esi	esi	comi	comi	comi	comi	comi	
+#############################################################
+#############################################################
+epoch= 13   radius = 5.7   alpha= 0.391666666666667
+estudi	estudi	estudia	estu	estu	estu	estiar	be	hab	hab	
+estudi	estudi	estu	estu	estu	estu	es	be	hab	hab	
+estudi	estu	estudi	estu	estu	estu	estu	b	h	hab	
+estu	estu	estudi	estu	estu	estud	est	co	co	coab	
+estudi	estudinte	estudi	estu	estu	estud	est	co	co	co	
+estudi	estudinte	estudi	estud	estud	est	est	co	co	coar	
+estudi	estudi	estu	estu	estui	est	est	co	co	co	
+estudi	estd	estud	es	esi	est	co	co	co	co	
+estu	estd	esdilar	esi	esi	esi	co	comi	co	co	
+estud	esdilar	es	esi	esi	comi	comi	comi	comi	comi	
+#############################################################
+#############################################################
+epoch= 14   radius = 5.6   alpha= 0.383333333333333
+estudi	estudi	estudia				ar	hab	habla	habla	
+estudi	estudi	estu				h	hab	habla	habla	
+estudi	estu	estudi					hab	hab	habla	
+estu	estu	estudi			d	h	hao	hao	hab	
+estudi	estudinte	estudi	estu		d	h	hao	hao	hao	
+estudi	estudinte	estudi	estud	d	h	h	hao	hao	har	
+estudi	estudi	estu	estu	estui	h	h	hao	hao	hao	
+estudi	estd	estud	es	esi	est	hao	hao	hao	hao	
+estu	estd	esdilar	esi	esi	esi	co	comi	co	co	
+estud	esdilar	es	esi	esi	comi	comi	comi	comi	comi	
+#############################################################
+#############################################################
+epoch= 15   radius = 5.5   alpha= 0.375
+estudi	estudi	estudia				ar	hab	habla	habla	
+estudi	estudi	estu				h	hab	habla	habla	
+estudi	estu	estudi				com	c	c	habla	
+estu	estu	estudi		com	co	co	co	co	c	
+estudi	estudinte	estudi	cometu	com	co	co	co	co	co	
+estudi	estudinte	cometudi	cometud	co	co	co	co	co	cr	
+estudi	estudi	cometu	cometu	comestui	co	co	co	co	co	
+estudi	estd	cometud	comes	comesi	comest	co	co	co	co	
+estu	estd	comedilar	comesi	comesi	comesi	come	comeri	come	come	
+estud	esdilar	comes	comesi	comesi	comeri	comeri	comeri	comeri	comeri	
+#############################################################
+#############################################################
+epoch= 16   radius = 5.4   alpha= 0.366666666666667
+beudi	beudi	bedia	be	be	be	br	b	ba	habla	
+beudi	beudi	beu	be	be	be	b	b	ba	habla	
+beudi	beu	beudi	be	be	be		b	b	habla	
+beu	beu	beudi	be		b	b	b	b	c	
+beudi	bedinte	beudi	etu		b	b	b	b	co	
+beudi	bedinte	betudi	betud	b	b	b	b	b	cr	
+beudi	beudi	etu	etu	bestui	b	b	b	b	co	
+beudi	bed	betud	es	esi	est	b	b	co	co	
+estu	bed	bedilar	esi	esi	esi	e	comeri	come	come	
+estud	esdilar	es	esi	esi	comeri	comeri	comeri	comeri	comeri	
+#############################################################
+#############################################################
+epoch= 17   radius = 5.3   alpha= 0.358333333333333
+beudi	beudi	bedia	be	be	be	br	b	ba	habla	
+beudi	beudi	beu	be	be	be	b	b	ba	habla	
+beudi	beu	beudi	be	be	be		b	b	habla	
+beu	beu	beudi	be		b	b	b	c	co	
+beudi	bedinte	beudi	etu		b	b	c	c	com	
+beudi	bedinte	betudi	betud	b	c	c	c	c	cor	
+beudi	beudi	etu	etu	bestui	c	c	c	c	com	
+beudi	bed	betud	es	coesi	coest	c	c	com	com	
+estu	bed	bedilar	esi	esi	coesi	ce	comeri	come	come	
+estud	esdilar	es	esi	coesi	comeri	comeri	comeri	comeri	comeri	
+#############################################################
+#############################################################
+epoch= 18   radius = 5.2   alpha= 0.35
+beudi	beudi	bedia	be	be	be	br	b	ba	habla	
+beudi	beudi	beu	be	be	be	b	b	ba	habla	
+beudi	beu	beudi	be	be	be		b	b	habla	
+beu	esu	beudi	be		b	b	b	c	co	
+esudi	estdinte	esudi	estud	est	b	b	c	c	com	
+esudi	estdinte	etudi	estud	es	c	c	c	c	cor	
+esudi	esudi	estud	estud	estui	es	es	c	c	com	
+esudi	esd	estud	estu	esi	est	c	c	com	com	
+estud	esd	esdilar	estui	estui	esi	est	comeri	come	come	
+estudi	estdilar	estu	estui	esi	ei	ei	comeri	comeri	comeri	
+#############################################################
+#############################################################
+epoch= 19   radius = 5.1   alpha= 0.341666666666667
+beudi	beudi	bedia	be	be	habe	hbr	hab	hba	habla	
+beudi	beudi	beu	be	habe	habe	hab	hab	hba	habla	
+beudi	beu	beudi	be	be	habe	ha	hab	hab	habla	
+beu	esu	beudi	be		hab	hab	hab	h	h	
+esudi	estdinte	esudi	estud	est	b	hab	h	h		
+esudi	estdinte	etudi	estud	es	c	h	h	h	r	
+esudi	esudi	estud	estud	estui	es	es	h	h		
+esudi	esd	estud	estu	esi	est	c	c	com	com	
+estud	esd	esdilar	estui	estui	esi	est	comeri	come	come	
+estudi	estdilar	estu	estui	esi	ei	ei	comeri	comeri	comeri	
+#############################################################
+#############################################################
+epoch= 20   radius = 5   alpha= 0.333333333333333
+beudi	beudi	bedia	be	be	habe	hbr	hab	hba	habla	
+beudi	beudi	beu	be	habe	habe	hab	hab	hba	habla	
+beudi	beu	beudi	be	be	habe	ha	cab	cab	la	
+beu	esu	beudi	be		hab	cab	cab	c	c	
+esudi	estdinte	esudi	estud	est	b	cab	c	c	co	
+esudi	estdinte	etudi	estud	es	com	c	c	c	c	
+esudi	esudi	estud	estud	estui	c	c	c	c	co	
+esudi	esd	estud	estu	i		com	com	comi	comi	
+estud	esd	esdilar	estui	estui	i		comri	com	com	
+estudi	estdilar	estu	estui	esi	ci	ci	comri	comri	comri	
+#############################################################
+#############################################################
+epoch= 21   radius = 4.9   alpha= 0.325
+bedi	bedi	bedia	bed	bed	be	b	hab	hba	habla	
+bedi	bedi	bed	bed	be	be	b	hab	hba	habla	
+bedi	bed	bedi	bed	bed	be	ba	cab	cab	la	
+bed	beu	bedi	bed	be	b	cab	cab	c	c	
+beudi	bedinte	beudi	betud	bet	bed	cab	c	c	co	
+beudi	bedinte	beudi	betud	es	com	c	c	c	c	
+esudi	esudi	estud	estud	estui	c	c	c	c	co	
+esudi	esd	estud	estu	i		com	com	comi	comi	
+estud	esd	esdilar	estui	estui	i		comri	com	com	
+estudi	estdilar	estu	estui	esi	ci	ci	comri	comri	comri	
+#############################################################
+#############################################################
+epoch= 22   radius = 4.8   alpha= 0.316666666666667
+bedi	bedi	bedia	bed	bed	be	b	hab	hba	habla	
+bedi	bedi	bed	bed	be	be	b	hab	hba	habla	
+bedi	bed	bedi	bed	bed	be	ba	cab	cab	la	
+bed	beu	bedi	bed	be	b	cab	cab	c	c	
+esudi	esdinte	esudi	betud	bet	bed	cab	c	c	co	
+esudi	esdinte	esudi	estud	es	com	c	c	c	c	
+estudia	estudia	estudia	estudia	estudia	c	c	c	c	co	
+estudia	estud	estudia	estudi	esti		com	com	comi	comi	
+estudia	estud	estudilar	estudia	estudia	esti		comri	com	com	
+estudia	estudiar	estudi	estudia	estui	ci	ci	comri	comri	comri	
+#############################################################
+#############################################################
+epoch= 23   radius = 4.7   alpha= 0.308333333333333
+bedi	bedi	bedia	bed	bed	be	b	hab	hba	habla	
+bedi	bedi	bed	bed	be	be	b	hab	hba	habla	
+bedi	bed	bedi	bed	bed	be	ba	cab	cab	la	
+bed	beu	bedi	bed	be	b	cab	cab	c	c	
+esudi	estudinte	estudi	etud	est	bed	cab	c	c	co	
+estudi	estudinte	estudi	estudi	estu	eom	c	c	c	c	
+estudi	estudi	estudi	estudi	estudi	e	e	c	c	co	
+estudi	estudi	estudi	estudi	estui	es	eom	com	comi	comi	
+estudi	estudi	estudiar	estudi	estudi	estui	es	ri	com	com	
+estudi	estudir	estudi	estudi	estudi	ei	ei	comri	comri	comri	
+#############################################################
+#############################################################
+epoch= 24   radius = 4.6   alpha= 0.3
+bedi	bedi	bedia	bed	bed	habe	hab	habl	haba	hablad	
+bedi	bedi	bed	bed	habe	habe	hab	habl	haba	hablad	
+bedi	bed	bedi	bed	bed	habe	haba	hab	hab	hala	
+bed	beu	bedi	bed	be	hab	hab	hab	h	h	
+esudi	estudinte	estudi	etud	est	bed	hab	h	h	ho	
+estudi	estudinte	estudi	estudi	estu	eom	c	h	h	h	
+estudi	estudi	estudi	estudi	estudi	e	e	c	c	co	
+estudi	estudi	estudi	estudi	estui	es	eom	com	comi	comi	
+estudi	estudi	estudiar	estudi	estudi	estui	es	ri	com	com	
+estudi	estudir	estudi	estudi	estudi	ei	ei	comri	comri	comri	
+#############################################################
+#############################################################
+epoch= 25   radius = 4.5   alpha= 0.291666666666667
+bedi	bedi	bedia	bed	bed	habe	hab	habl	haba	hablad	
+bedi	bedi	bed	bed	habe	habe	hab	habl	haba	hablad	
+bedi	bed	bedi	bed	bed	habe	haba	hab	hab	hala	
+bed	beu	bedi	bed	be	hab	hab	hab	h	h	
+esudi	estudinte	estudi	etud	est	bed	hab	h	h	co	
+estudi	estudinte	estudi	estudi	estu	eom	c	co	co	co	
+estudi	estudi	estudi	estudi	estudi	e	coe	com	com	come	
+estudi	estudi	estudi	estudi	estui	coes	com	come	comei	comei	
+estudi	estudi	estudiar	estudi	estudi	estui	coes	cori	come	come	
+estudi	estudir	estudi	estudi	estudi	coei	coei	comeri	comeri	comeri	
+#############################################################
+#############################################################
+epoch= 26   radius = 4.4   alpha= 0.283333333333333
+bedi	bei	bea	be	be	abe	b	bl	ba	hablad	
+bei	bei	be	be	abe	abe	b	bl	ba	hablad	
+bedi	be	bei	be	be	abe	ba	b	b	hala	
+be	be	bei	be	beb	b	b	b	b	h	
+esudi	beudinte	beudi	beud	bet	be	b	b	b	co	
+beudi	beudinte	beudi	beudi	betu	bem	b			co	
+estudi	beudi	beudi	beudi	beudi	be	e	m	m	come	
+estudi	estudi	beudi	beudi	betui	es	m	come	comei	comei	
+estudi	estudi	estudiar	estudi	beudi	betui	coes	cori	come	come	
+estudi	estudir	estudi	estudi	estudi	coei	coei	comeri	comeri	comeri	
+#############################################################
+#############################################################
+epoch= 27   radius = 4.3   alpha= 0.275
+bedi	bei	bea	be	be	abe	b	bl	ba	hablad	
+bei	bei	be	be	abe	abe	b	bl	ba	hablad	
+bedi	be	bei	be	be	abe	ba	c	c	la	
+be	be	bei	be	beb	b	c	c	c	c	
+esudi	beudinte	beudi	beud	bet	be	c	c	c	com	
+beudi	beudinte	beudi	beudi	betu	m	c	c	c	com	
+estudi	beudi	beudi	beudi	beudi	e	ce	cm	cm	come	
+estudi	estudi	beudi	beudi	betui	ces	cm	come	come	come	
+estudi	estudi	estudiar	estudi	beudi	betui	comes	comri	come	come	
+estudi	estudir	estudi	estudi	estudi	coei	comei	comeri	comeri	comeri	
+#############################################################
+#############################################################
+epoch= 28   radius = 4.2   alpha= 0.266666666666667
+bedi	bei	bea	be	be	abe	b	bl	ba	hablad	
+bei	bei	be	be	abe	abe	b	bl	ba	hablad	
+bedi	be	bei	be	be	abe	ba	c	c	la	
+be	be	bei	be	beb	b	c	c	c	c	
+estudi	esudinte	eudi	esud	est	be	c	c	c	com	
+eudi	esudinte	eudi	eudi	estu	m	c	c	c	com	
+estudia	eudi	eudi	eudi	eudi	est	ce	cm	cm	come	
+estudia	estudia	eudi	eudi	etui	est	cm	come	come	come	
+estudia	estudia	estudiar	estudia	eudi	etui	mes	comri	come	come	
+estudia	estudir	estudia	estudia	estudia	ei	comei	comeri	comeri	comeri	
+#############################################################
+#############################################################
+epoch= 29   radius = 4.1   alpha= 0.258333333333333
+bedi	bei	bea	be	be	abe	hb	hbl	hba	habla	
+bei	bei	be	be	abe	habe	hb	hbl	hba	habla	
+bedi	be	bei	be	be	abe	hba	h	h	hla	
+be	be	bei	be	beb	b	h	h	h	h	
+estudi	esudinte	eudi	esud	est	be	c	h	h	m	
+eudi	esudinte	eudi	eudi	estu	m	c	h	h	m	
+estudia	eudi	eudi	eudi	eudi	est	ce	cm	cm	come	
+estudia	estudia	eudi	eudi	etui	est	cm	come	come	come	
+estudia	estudia	estudiar	estudia	eudi	etui	mes	comri	come	come	
+estudia	estudir	estudia	estudia	estudia	ei	comei	comeri	comeri	comeri	
+#############################################################
+#############################################################
+epoch= 30   radius = 4   alpha= 0.25
+bedi	bei	bea	be	be	abe	hb	hbl	hba	habla	
+bei	bei	be	be	abe	habe	hb	hbl	hba	habla	
+bedi	be	bei	be	be	abe	hba	h	h	hla	
+be	be	bei	be	beb	b	h	h	h	h	
+estudi	esudinte	eudi	esud	est		co	c	c	cm	
+eudi	esudinte	eudi	eudi	tu	cm	co	c	c	cm	
+estudia	eudi	eudi	eudi	di	t	co	com	com	com	
+estudia	estudia	eudi	di	ui	t	com	com	com	com	
+estudia	estudia	estudiar	tudia	di	ui	comes	comi	com	com	
+estudia	estudir	estudia	tudia	tudia	ci	comi	comri	comri	comri	
+#############################################################
+#############################################################
+epoch= 31   radius = 3.9   alpha= 0.241666666666667
+bedi	bedi	beda	bed	be	abe	hb	hbl	hba	habla	
+bedi	bedi	bed	bed	abe	habe	hb	hbl	hba	habla	
+bedi	bed	bedi	bed	be	abe	hba	h	h	hla	
+bed	bed	bedi	bed	beb	b	h	h	h	h	
+bestudi	beudinte	beudi	besud	est		co	c	c	cm	
+beudi	beudinte	beudi	eudi	tu	cm	co	c	c	cm	
+bestudia	beudi	eudi	eudi	di	t	co	com	com	com	
+estudia	estudia	eudi	di	ui	t	com	com	com	com	
+estudia	estudia	estudiar	tudia	di	ui	comes	comi	com	com	
+estudia	estudir	estudia	tudia	tudia	ci	comi	comri	comri	comri	
+#############################################################
+#############################################################
+epoch= 32   radius = 3.8   alpha= 0.233333333333333
+bedi	bedi	beda	bed	be	abe	hb	hbl	hba	habla	
+bedi	bedi	bed	bed	abe	habe	hb	hbl	hba	habla	
+bedi	bed	bedi	bed	be	abe	hba	h	h	hla	
+bed	bed	bedi	bed	beb	b	h	h	h	h	
+bestudi	beudinte	beudi	besud	est		co	c	c	cm	
+esudi	eudinte	beudi	eudi	tu	cm	co	c	c	cm	
+estudia	esudi	esudi	esudi	di	t	co	com	com	com	
+estudian	estudian	esudi	esdi	ui	t	com	com	com	com	
+estudian	estudian	estudia	etudia	esdi	ui	comes	comi	com	com	
+estudian	estudi	estudian	etudia	tudia	ci	comi	comri	comri	comri	
+#############################################################
+#############################################################
+epoch= 33   radius = 3.7   alpha= 0.225
+bedi	bedi	beda	bed	be	abe	hb	hbl	hba	habla	
+bedi	bedi	bed	bed	abe	habe	hb	hbl	hba	habla	
+bedi	bed	bedi	bed	be	abe	hba	h	h	hla	
+bed	bed	bedi	bed	beb	b	h	h	h	h	
+bestudi	beudinte	beudi	besud	est		co	c	c	cm	
+esudi	esudinte	eudi	eudi	tu	cm	co	c	c	cm	
+estudia	esudi	esudi	esudi	edi	t	co	com	com	com	
+estudin	estudin	esudi	estdi	eui	t	com	com	com	com	
+estudin	estudin	estudia	estudia	estdi	eui	comes	comi	com	com	
+estudin	estudi	estudin	estudia	etudia	ci	comi	comri	comri	comri	
+#############################################################
+#############################################################
+epoch= 34   radius = 3.6   alpha= 0.216666666666667
+bedi	bedi	beda	bed	be	abe	hb	habl	haba	habla	
+bedi	bedi	bed	bed	abe	habe	hab	habl	haba	habla	
+bedi	bed	bedi	bed	be	abe	hba	ha	ha	hala	
+bed	bed	bedi	bed	beb	b	ha	ha	ha	ha	
+bestudi	beudinte	beudi	besud	est		co	c	h		
+esudi	esudinte	eudi	eudi	tu	cm	co	c	c		
+estudia	esudi	esudi	esudi	edi	t	co	com	com	com	
+estudin	estudin	esudi	estdi	eui	t	com	com	com	com	
+estudin	estudin	estudia	estudia	estdi	eui	comes	comi	com	com	
+estudin	estudi	estudin	estudia	etudia	ci	comi	comri	comri	comri	
+#############################################################
+#############################################################
+epoch= 35   radius = 3.5   alpha= 0.208333333333333
+bedi	bedi	beda	bed	be	abe	hb	habl	haba	habla	
+bedi	bedi	bed	bed	abe	habe	hab	habl	haba	habla	
+bedi	bed	bedi	bed	be	abe	hba	ha	ha	hala	
+bed	bed	bedi	bed	beb	b	ha	ha	ha	ha	
+bestudi	beudinte	beudi	besud	est		co	c	h		
+esudi	esudinte	eudi	eudi	tu	cm	co	co	c		
+estudia	esudi	esudi	esudi	edi	t	com	come	come	come	
+estudin	estudin	esudi	estdi	ceui	c	come	come	come	come	
+estudin	estudin	estudia	estudia	estdi	ceui	come	comei	come	come	
+estudin	estudi	estudin	estudia	coetudia	coi	comei	comeri	comeri	comeri	
+#############################################################
+#############################################################
+epoch= 36   radius = 3.4   alpha= 0.2
+bedi	bedi	beda	be	beb	be	b	habl	haba	habla	
+bedi	bedi	be	be	be	abe	ab	habl	haba	habla	
+bedi	bed	bei	be	beb	be	ba	a	ha	hala	
+bed	be	bei	be	beb	be	a	a	ha	ha	
+bestudi	beudinte	bedi	beud	best	b	o		h		
+esudi	esudinte	beudi	beudi	u	m	o	co	c		
+estudia	esudi	esudi	beudi	bedi		m	come	come	come	
+estudin	estudin	esudi	estdi	ceui	c	come	come	come	come	
+estudin	estudin	estudia	estudia	estdi	ceui	come	comei	come	come	
+estudin	estudi	estudin	estudia	coetudia	coi	comei	comeri	comeri	comeri	
+#############################################################
+#############################################################
+epoch= 37   radius = 3.3   alpha= 0.191666666666667
+bedi	bedi	beda	be	beb	be	b	habl	haba	habla	
+bedi	bedi	be	be	be	abe	ab	habl	haba	habla	
+bedi	bed	bei	be	beb	be	ba	a	ha	hala	
+bed	be	bei	be	beb	be	a	a	ha	ha	
+bestudi	beudinte	bedi	beud	best		co	c			
+esudi	esudinte	beudi	beudi		cm	co	com	co		
+estudia	esudi	esudi	beudi	edi	c	cm	come	come	come	
+estudin	estudin	esudi	coestdi	coeui	co	come	come	come	come	
+estudin	estudin	estudia	estudia	coestdi	coeui	come	comei	come	come	
+estudin	estudi	estudin	estudia	cometudia	co	comei	comeri	comeri	comeri	
+#############################################################
+#############################################################
+epoch= 38   radius = 3.2   alpha= 0.183333333333333
+bedi	bedi	beda	be	beb	be	b	habl	haba	habla	
+bedi	bedi	be	be	be	abe	ab	habl	haba	habla	
+bedi	bed	bei	be	beb	be	ba	a	ha	hala	
+bed	be	bei	be	beb	be	a	a	ha	ha	
+bestudi	beudinte	bedi	beud	best		co	c			
+esudi	esudinte	beudi	beudi		cm	co	com	co		
+estudia	esudi	estudi	eudi	esdi	e	cm	come	come	come	
+estudin	estudi	estudi	oestdi	oeui		come	come	come	come	
+estudin	estudi	estudia	estudia	oestdi	oeui	me	comei	come	come	
+estudi	estudi	estudi	estudia	ometudia		mei	comeri	comeri	comeri	
+#############################################################
+#############################################################
+epoch= 39   radius = 3.1   alpha= 0.175
+bedi	bedi	beda	be	beb	be	hb	habl	haba	habla	
+bedi	bedi	be	be	be	abe	hab	habl	haba	habla	
+bedi	bed	bei	be	beb	be	ba	ha	hab	hala	
+bed	be	bei	be	beb	be	a	ha	hab	hab	
+bestudi	beudinte	bedi	beud	best		co	c			
+esudi	esudinte	beudi	beudi		cm	co	com	co		
+estudia	esudi	estudi	eudi	esdi	e	cm	come	come	come	
+estudin	estudi	estudi	oestdi	oeui		come	come	come	come	
+estudin	estudi	estudia	estudia	oestdi	oeui	me	comei	come	come	
+estudi	estudi	estudi	estudia	ometudia		mei	comeri	comeri	comeri	
+#############################################################
+#############################################################
+epoch= 40   radius = 3   alpha= 0.166666666666667
+bedi	bedi	beda	be	beb	be	hb	habl	haba	habla	
+bedi	bedi	be	be	be	abe	hab	habl	haba	habla	
+bedi	bed	bei	be	beb	be	a	a	ab	ala	
+bed	be	bei	be	beb	e	ca	a	ab	ab	
+bestudi	beudinte	bedi	beud	best	c	com	co	c	c	
+esudi	esudinte	beudi	beudi	c	com	com	com	com	c	
+estudia	esudi	estudi	eudi	esdi		com	com	com	com	
+estudin	estudi	estudi	oestdi	oeui	c	com	com	com	com	
+estudin	estudi	estudia	estudia	oestdi	oeui	cme	comei	com	com	
+estudi	estudi	estudi	estudia	ometudia		mei	comeri	comeri	comeri	
+#############################################################
+#############################################################
+epoch= 41   radius = 2.9   alpha= 0.158333333333333
+bedi	bedi	beda	bed	be	be	hb	habl	haba	habla	
+bedi	bedi	bed	bed	bed	abe	hab	habl	haba	habla	
+bedi	bed	bei	bed	be	be	a	a	ab	ala	
+bed	bed	bei	be	beb	e	ca	a	ab	ab	
+bestudi	beudinte	bedi	beud	best	c	com	co	c	c	
+esudi	esudinte	beudi	beudi	c	com	com	com	com	c	
+estudia	esudi	estudi	eudi	esdi		com	com	com	com	
+estudin	estudi	estudi	oestdi	oeui	c	com	com	com	com	
+estudin	estudi	estudia	estudia	oestdi	oeui	cme	comei	com	com	
+estudi	estudi	estudi	estudia	ometudia		mei	comeri	comeri	comeri	
+#############################################################
+#############################################################
+epoch= 42   radius = 2.8   alpha= 0.15
+bedi	bedi	beda	bed	be	be	hb	habl	haba	habla	
+bedi	bedi	bed	bed	bed	abe	hab	habl	haba	habla	
+bedi	ed	ei	bed	be	be	a	a	ab	ala	
+ed	ed	ei	ee	beb	e	ca	a	ab	ab	
+estudi	eudinte	edi	eud	est	c	com	co	c	c	
+estudi	esudinte	eudi	eudi	c	com	com	com	com	c	
+estudia	estudi	estudia	esudi	estdi		com	com	com	com	
+estudin	estudia	estudia	estdi	oeui	c	com	com	com	com	
+estudin	estudia	estudia	estudia	oestdi	oeui	cme	comei	com	com	
+estudi	estudi	estudi	estudia	ometudia		mei	comeri	comeri	comeri	
+#############################################################
+#############################################################
+epoch= 43   radius = 2.7   alpha= 0.141666666666667
+Map not modified at 43 epoch
+Calibrating...
+
+Writing map file ...
+Writing umatrix file ...
+Writing ps file ...
